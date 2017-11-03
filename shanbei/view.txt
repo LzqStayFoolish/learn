@@ -1,0 +1,5 @@
+/api/book/description/history/120    |     Book.All.Description
+/api/book/comics/123    |     Book.Comics.Content
+/api/book/comics/123/audio    |     Book.Comics.Content
+/api/user/clkjaslf    |     User.All.Infos
+/source/img/6bq8H7q    |     Source.Image

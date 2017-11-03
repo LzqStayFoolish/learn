@@ -1,0 +1,19 @@
+PARRTEN = [
+    ("/api/book/description/[a-z]+/[0-9]+", "Book.All.Description"),
+    ("/api/book/history/[0-9]+", "Book.History.Content"),
+    ("/api/book/comics/[0-9]+", "Book.Comics.Content"),
+    ("/api/book/[a-z]+/[0-9]+", "Book.All.Content"),
+    ("/api/user/teacher/[a-z]+", "User.Teacher.Infos"),
+    ("/api/user/student/[a-z]+", "User.Student,Infos"),
+    ("/api/user/[a-z]+", "User.All.Infos"),
+    ("/source/img/[0-9a-zA-Z]+", "Source.Image"),
+    ("/source/scripts/[0-9a-zA-Z]+", "Source.Scripts"),
+]
+
+
+test_urls = [
+    ("/api/book/description/history/120", "Book.All.Description"),
+    ("/api/book/comics/123", "Book.Comics.Content"),
+    ("/api/user/clkjaslf", "User.All.Infos"),
+    ("/source/img/6bq8H7q", "Source.Image"),
+]
